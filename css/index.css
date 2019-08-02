@@ -1,0 +1,28 @@
+*{margin: 0px;padding: 0px;}
+#box{
+    width: 500px;
+    height: 600px;
+    border: 2px solid greenyellow;
+    position: relative;
+    background-color:seagreen;
+    margin: auto;
+    margin-top: 10px;
+}
+.ball{
+    width: 15px;
+    height: 15px;
+    background-color:red;
+    border-radius: 50%;
+    position: absolute;
+    left: 240px;
+    top: 2px;
+}
+.biaoti {
+    text-align: center;
+    margin-top: 50px;
+}
+#juzhong
+{
+    text-align: center;
+    line-height: 50px;
+}

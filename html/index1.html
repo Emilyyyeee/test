@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>弹一弹弹不动</title>
+    <link rel="stylesheet" href="../css/index.css" type="text/css"/>
+    <script src="../js/index.js"></script>
+</head>
+<body>
+<div class="biaoti">
+    弹不动(点击下面区域试玩）
+</div>
+<div id="box" onmousedown="Mouseclick(event);">
+    <div class="ball" state="stop"></div>
+    <div class="rect" id="rect01"></div>
+</div>
+<div id="juzhong">
+    <button onclick="addballs();">增加小球</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button onclick="AddRect();">增加方块</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button onclick="MoveAllRect();">上移方块</button>
+</div>
+
+</body>
+</html>
